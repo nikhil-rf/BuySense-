@@ -3,7 +3,7 @@ import { createClient } from "@/utils/supabase/server";
 import { getProducts } from "./actions";
 import ProductCard from "@/components/ProductCard";
 import { LogIn, Rabbit, Shield, Bell, TrendingDown } from "lucide-react";
-// import Image from "next/image";
+import Image from "next/image";
 import AddProductForm from "@/components/AddProductForm";
 import AuthButton from "@/components/AuthButton";
 
@@ -39,12 +39,13 @@ export default async function Home() {
       <header className="bg-white/80 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-10">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
-            {/* <Image
-              src={"/Logo.png"}
+            <Image
+              src="/Logo2.png"
               alt="BuySense logo"
-              width={80}
-              height={1}
-            /> */}
+              width={60}
+              height={6}
+              className="logo"
+            />
           </div>
 
           {/* Auth Button */}

@@ -40,7 +40,7 @@ export default async function Home() {
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
             <Image
-              src="/logo2.png"
+              src="/logo1.png"
               alt="BuySense logo"
               width={60}
               height={60}

@@ -69,4 +69,4 @@ This is a Next.js application that allows users to track prices of products from
 6.  **Email Notification:** If the price has dropped, an email is sent to the user who added the product, notifying them of the price drop.
 =======
 6.  **Email Notification:** If the price has dropped, an email is sent to the user who added the product, notifying them of the price drop.
->>>>>>> 2bf98c139fbd1b4e8c036ec6ec740617cfd9ff12
+
